@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f2583260; /* Tons de laranja para o fundo */
+    background-image: url(./etiquePreco.png);
+    background-size: 30px;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+form {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    color: #f25832;
+}
+
+input {
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #e76f51;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    width: 100px;
+
+    padding: 10px;
+    background-color: #e76f51;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;  
+    transition: 0.8s;
+}
+
+button:hover {
+    background-color: #d35400;
+    border-radius: 50px;
+}
+
+.password {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
